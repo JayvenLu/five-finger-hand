@@ -8,14 +8,14 @@ Live page: https://jayvenlu.github.io/five-finger-hand/
 
 The editable hardware design sources are available in [`assets/CAD`](assets/CAD):
 
-| Model | STEP source | Browser preview |
-| --- | --- | --- |
-| Fingertip mold | [`mold.STEP`](assets/CAD/mold.STEP) | [`mold.glb`](assets/CAD/previews/mold.glb) |
-| Thumb component | [`thumb.STEP`](assets/CAD/thumb.STEP) | [`thumb.glb`](assets/CAD/previews/thumb.glb) |
+| Model | STEP source |
+| --- | --- |
+| Fingertip mold | [`mold.STEP`](assets/CAD/mold.STEP) |
+| Thumb component | [`thumb.STEP`](assets/CAD/thumb.STEP) |
 
-Use the STEP files for manufacturing and modification. The GLB files are derived, lightweight previews for the website.
+Use the STEP files for manufacturing and modification.
 
-The CAD sources and GLB derivatives under `assets/CAD/` are licensed under the [CERN Open Hardware Licence Version 2 - Strongly Reciprocal](assets/CAD/LICENSE.txt). Modified designs conveyed to others must remain available under the reciprocal terms of that license. The website code, photographs, and other media outside `assets/CAD/` are not covered by this CAD license.
+The CAD sources under `assets/CAD/` are licensed under the [CERN Open Hardware Licence Version 2 - Strongly Reciprocal](assets/CAD/LICENSE.txt). Modified designs conveyed to others must remain available under the reciprocal terms of that license. The website code, photographs, and other media outside `assets/CAD/` are not covered by this CAD license.
 
 Suggested citation:
 
