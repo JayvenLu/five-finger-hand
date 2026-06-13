@@ -10,6 +10,7 @@
   <meta property="og:image" content="assets/images/five-finger-hand-system.png">
   <title>Five-Finger Dexterous Hand | Xiaofan Lu</title>
   <link rel="stylesheet" href="assets/css/style.css">
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.3.1/model-viewer.min.js"></script>
 </head>
 <body>
   <main class="page">
@@ -25,6 +26,64 @@
         <img src="assets/images/five-finger-hand-system.png" width="554" height="445" alt="Five-finger dexterous hand and integrated tactile sensors">
         <figcaption>Five-finger dexterous hand and fingertip sensor integration</figcaption>
       </figure>
+    </section>
+
+    <section class="cad-section" aria-labelledby="cad-title">
+      <div class="section-heading">
+        <p class="eyebrow">Open hardware</p>
+        <h2 id="cad-title">Open-source CAD</h2>
+        <p>Interactive GLB files are provided for browser preview. Use the STEP source files for manufacturing, inspection, and design modification.</p>
+      </div>
+
+      <div class="cad-grid">
+        <article class="cad-card">
+          <model-viewer
+            src="assets/CAD/previews/mold.glb"
+            alt="Interactive 3D preview of the five-finger hand fingertip mold"
+            camera-controls
+            auto-rotate
+            auto-rotate-delay="1500"
+            interaction-prompt="auto"
+            loading="lazy"
+            shadow-intensity="0.8"
+            tone-mapping="neutral">
+          </model-viewer>
+          <div class="cad-card-body">
+            <div>
+              <h3>Fingertip mold</h3>
+              <p>STEP source · 1.45 MB</p>
+            </div>
+            <a class="download-link" href="assets/CAD/mold.STEP" download>Download STEP</a>
+          </div>
+        </article>
+
+        <article class="cad-card">
+          <model-viewer
+            src="assets/CAD/previews/thumb.glb"
+            alt="Interactive 3D preview of the five-finger hand thumb component"
+            camera-controls
+            auto-rotate
+            auto-rotate-delay="1500"
+            interaction-prompt="auto"
+            loading="lazy"
+            shadow-intensity="0.8"
+            tone-mapping="neutral">
+          </model-viewer>
+          <div class="cad-card-body">
+            <div>
+              <h3>Thumb component</h3>
+              <p>STEP source · 488 KB</p>
+            </div>
+            <a class="download-link" href="assets/CAD/thumb.STEP" download>Download STEP</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="cad-license">
+        <p><strong>Licensed under CERN-OHL-S-2.0.</strong> Contributors: Xiaofan Lu, Yuankai Lin, and Tian Xu.</p>
+        <p>State Key Laboratory of Intelligent Manufacturing Equipment and Technology (智能制造装备与技术全国重点实验室).</p>
+        <a href="assets/CAD/LICENSE.txt">Read the CAD license</a>
+      </div>
     </section>
   </main>
 </body>
